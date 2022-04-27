@@ -1,0 +1,15 @@
+.place__paragraphs {
+  margin-top: 48px;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraphs {
+   margin-left: 28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .place__paragraphs {
+   margin-left: 0px;
+  }
+}

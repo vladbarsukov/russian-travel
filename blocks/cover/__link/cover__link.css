@@ -1,0 +1,15 @@
+.cover__link {
+  background: rgb(42, 44, 47, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+  flex-direction: column;
+}
+
+
+.cover__link:hover {
+  background: rgb(42, 44, 47, 0.8);
+  transition: ease-out 0.5s;
+}

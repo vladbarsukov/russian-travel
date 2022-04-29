@@ -1,0 +1,21 @@
+.main {
+  padding-top: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    max-width: 928px;
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    max-width: 768px;
+  }
+}

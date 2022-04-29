@@ -1,0 +1,29 @@
+.cover {
+  background-image: url(../../images/__background_baikal_dogs.png);
+  display: flex;
+  margin: 92px auto 0px auto;
+  max-width: 1184px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .cover {
+    margin-top: 66px;
+  }
+}
+.cover::after {
+  content:  "";
+  width: 0;
+  height: 0;
+  margin-left: -1px;
+  padding-top: calc(740/1184*100%);
+}

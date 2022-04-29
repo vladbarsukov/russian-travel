@@ -1,0 +1,16 @@
+.main__inset {
+  padding-top: 64px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main__inset {
+    padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .main__inset {
+    padding-top: 40px;
+  }
+}

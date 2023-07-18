@@ -1,7 +1,7 @@
 .cover {
-  background-image: url(../../images/__background_baikal_dogs.jpg);
+  background-image: url("../../images/background_baikal_dogs.jpg");
   display: flex;
-  margin: 92px auto 0px auto;
+  margin: 92px auto 0 auto;
   max-width: 1184px;
   background-position: center;
   background-size: cover;
